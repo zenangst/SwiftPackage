@@ -12,7 +12,7 @@ end
 folder_path = __dir__
 
 default_package_name = File.basename(Dir.getwd)
-default_bundle_domain = 'no.hyper'
+default_bundle_domain = 'com.zenangst'
 default_author_name = `git config user.name`.strip
 default_author_email = `git config user.email`.strip
 default_username = default_author_email.split('@').first
