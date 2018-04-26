@@ -83,6 +83,11 @@ File.rename("#{folder_path}/SwiftPackage.xcodeproj/xcshareddata/xcschemes/SwiftP
   "#{folder_path}/SwiftPackage.xcodeproj/xcshareddata/xcschemes/#{package_name}-iOS.xcscheme")
 File.rename("#{folder_path}/SwiftPackage.xcodeproj/xcshareddata/xcschemes/SwiftPackage-macOS.xcscheme",
   "#{folder_path}/SwiftPackage.xcodeproj/xcshareddata/xcschemes/#{package_name}-macOS.xcscheme")
+File.rename("#{folder_path}/SwiftPackage.xcodeproj/xcshareddata/xcschemes/SwiftPackage-tvOS.xcscheme",
+            "#{folder_path}/SwiftPackage.xcodeproj/xcshareddata/xcschemes/#{package_name}-tvOS.xcscheme")
+File.rename("#{folder_path}/SwiftPackage.xcodeproj/xcshareddata/xcschemes/SwiftPackage-watchOS.xcscheme",
+            "#{folder_path}/SwiftPackage.xcodeproj/xcshareddata/xcschemes/#{package_name}-watchOS.xcscheme")
+
 File.rename("#{folder_path}/SwiftPackage.xcodeproj", "#{folder_path}/#{package_name}.xcodeproj")
 
 example_folder = "CodeDemo"
