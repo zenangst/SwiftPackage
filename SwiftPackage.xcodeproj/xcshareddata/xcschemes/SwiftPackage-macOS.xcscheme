@@ -20,15 +20,49 @@
                ReferencedContainer = "container:SwiftPackage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5C629481C3A7FAA007F7B7C"
+               BuildableName = "SwiftPackage-macOS-Tests.xctest"
+               BlueprintName = "SwiftPackage-macOS-Tests"
+               ReferencedContainer = "container:SwiftPackage.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5C629481C3A7FAA007F7B7C"
+               BuildableName = "SwiftPackage-macOS-Tests.xctest"
+               BlueprintName = "SwiftPackage-macOS-Tests"
+               ReferencedContainer = "container:SwiftPackage.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5C6293F1C3A7FAA007F7B7C"
+            BuildableName = "SwiftPackage.framework"
+            BlueprintName = "SwiftPackage-macOS"
+            ReferencedContainer = "container:SwiftPackage.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
