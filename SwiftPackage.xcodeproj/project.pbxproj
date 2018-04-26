@@ -187,7 +187,7 @@
 				D500FD111C3AABED00782D78 /* Playground-iOS.playground */,
 				D500FD121C3AAC8E00782D78 /* Playground-macOS.playground */,
 				D284B13F1F79081F00D94AF3 /* Info */,
-				D5C629691C3A809D007F7B7C /* Sources */,
+				D5C629691C3A809D007F7B7C /* Source */,
 				D5C6298F1C3A8BDA007F7B7C /* Tests */,
 				D5B2E8A01C3A780C00C0327D /* Products */,
 			);
@@ -207,7 +207,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5C629691C3A809D007F7B7C /* Sources */ = {
+		D5C629691C3A809D007F7B7C /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				D5C6296A1C3A809D007F7B7C /* iOS+tvOS */,
@@ -215,7 +215,7 @@
 				D5C6296E1C3A809D007F7B7C /* Shared */,
 				D284B1211F79041300D94AF3 /* watchOS */,
 			);
-			path = Sources;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		D5C6296A1C3A809D007F7B7C /* iOS+tvOS */ = {
