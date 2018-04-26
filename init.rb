@@ -79,7 +79,6 @@ end
 FileUtils.rm('README.md')
 File.rename('SwiftPackage-README.md', 'README.md')
 File.rename("#{folder_path}/SwiftPackage.podspec", "#{folder_path}/#{package_name}.podspec")
-File.rename("#{folder_path}/SwiftPackageTests", "#{folder_path}/#{package_name}Tests")
 File.rename("#{folder_path}/SwiftPackage.xcodeproj/xcshareddata/xcschemes/SwiftPackage-iOS.xcscheme",
   "#{folder_path}/SwiftPackage.xcodeproj/xcshareddata/xcschemes/#{package_name}-iOS.xcscheme")
 File.rename("#{folder_path}/SwiftPackage.xcodeproj/xcshareddata/xcschemes/SwiftPackage-macOS.xcscheme",

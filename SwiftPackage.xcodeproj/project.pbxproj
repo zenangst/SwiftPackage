@@ -211,7 +211,7 @@
 				D500FD121C3AAC8E00782D78 /* Playground-macOS.playground */,
 				D284B13F1F79081F00D94AF3 /* Info */,
 				D5C629691C3A809D007F7B7C /* Sources */,
-				D5C6298F1C3A8BDA007F7B7C /* SwiftPackageTests */,
+				D5C6298F1C3A8BDA007F7B7C /* Tests */,
 				D5B2E8A01C3A780C00C0327D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		D5C6298F1C3A8BDA007F7B7C /* SwiftPackageTests */ = {
+		D5C6298F1C3A8BDA007F7B7C /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				D284B12F1F7906DA00D94AF3 /* Info-iOS-Tests.plist */,
@@ -269,7 +269,7 @@
 				D284B1311F7906DA00D94AF3 /* Shared */,
 				D284B1341F7906DA00D94AF3 /* tvOS */,
 			);
-			path = SwiftPackageTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
